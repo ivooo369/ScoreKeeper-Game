@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="height: 100%;">
+<html lang="en" style="height: 100%; overflow: auto;">
 
 <head>
   <meta charset="UTF-8">
@@ -11,9 +11,9 @@
     href="https://img.freepik.com/premium-vector/table-tennis-rackets-game-is-ping-pong-vector-illustration-flat-design-isolated-white-background-sports-icon_153097-3065.jpg?w=2000">
 </head>
 
-<body style="height: 100%;">
-  <section class="section is-flex-mobile">
-    <div class="container">
+<body class="has-background-info-light" style="height: 100%;">
+  <section class="section is-flex-mobile is-justify-content-center is-align-items-center" style="height: 100%;">
+    <div class="container is-flex-mobile is-justify-content-center is-align-items-center">
       <div class="columns">
         <div class="column is-half is-offset-one-quarter">
           <div class="card">
@@ -35,7 +35,7 @@
                 <p class="subtitle">Use the buttons below to keep score</p>
                 <label for="playTo" class="label is-large is-inline">Playing To</label>
                 <div class="select is-rounded">
-                  <select name="" id="playTo">
+                  <select id="playTo">
                     <option value="3">3</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
@@ -54,9 +54,9 @@
               </div>
             </div>
             <footer class="card-footer is-flex-wrap-wrap">
-              <button id="p1Button" class="is-primary button card-footer-item is-large">+1 Player One</button>
-              <button id="p2Button" class="is-info button card-footer-item is-large">+1 Player Two</button>
-              <button id="reset" class="is-danger button card-footer-item is-large">Reset</button>
+              <button id="p1Button" class="is-primary button card-footer-item is-medium">+1 Player One</button>
+              <button id="p2Button" class="is-info button card-footer-item is-medium">+1 Player Two</button>
+              <button id="reset" class="is-danger button card-footer-item is-medium">Reset</button>
             </footer>
           </div>
         </div>
